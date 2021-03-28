@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+  width: 100vw;
+  height: 50vw;
+  background-color: #000;
+}
+h1 > img {
+  width: 100vw;
+}
+
+.member {
+    display: flex;
+}
+
+.member img {
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
+}
+.member .profile {
+    width: 70vw;
+    text-align: center;
+    background-color: rgb(237, 242, 253);
+
+}
+.member .profile .name {
+    font-size: 5vw;
+    margin: 3vw 0;
+    font-weight: 200;
+}
+.member .profile .birthday {
+    font-size: 3.5vw;
+    margin: 0vw 0 3vw;
+}
+.member .profile .bloodtype {
+    font-size: 3.5vw;
+    margin: 0vw 0 3vw;
+}
+member profile p {
+    
+}
